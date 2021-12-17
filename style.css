@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* Hover */
+.menu ul li:hover a{
+    color: #00ff00;
+}
+/* ----------------------------------- */
+
 .menu ul{
     position: fixed;
     top: 30px;
@@ -30,8 +36,8 @@
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    padding: 8px;
 }
-
 
 .content-box{
     width: 100%;
